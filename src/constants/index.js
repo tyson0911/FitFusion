@@ -43,18 +43,18 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "GymDays",
+    url: "#gymdays",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Exercises",
+    url: "#exercises",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Trainers",
+    url: "#trainers",
   },
   {
     id: "3",
@@ -63,15 +63,15 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Brands",
+    url: "#brands",
+    
   },
   {
     id: "5",
     title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    url: "/SignIn",
+    
   },
 ];
 
