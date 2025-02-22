@@ -1,6 +1,7 @@
 import React from 'react';
 import SignIn from './components/SignIn';
 import { useState, useEffect } from 'react';
+import FitnessDietPlanner from './pages/DietPlanner';
 
 import Landing from './pages/Landing';
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path='/dietplanner' element={<FitnessDietPlanner/>}/>
       </Routes>
     
     </>
